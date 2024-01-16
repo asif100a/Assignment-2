@@ -51,7 +51,7 @@ body {
     background-image: url('../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     border-radius: 16px;
 }
 
@@ -290,4 +290,8 @@ footer{
 .margin-bottom{
     padding-bottom: 150px;
     padding-top: 40px;
+}
+
+hr{
+    width: 872px; height: 1px; background: rgba(19, 19, 24, 0.10);
 }
