@@ -42,7 +42,6 @@ body {
 /* -----------banner section--------- */
 .banner-container {
     margin: 150px auto;
-    /* border: 3px solid black; */
     width: fit-content;
 
 }
@@ -51,7 +50,7 @@ body {
 
     background-image: url('../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-    width: 1197px;
+    width: 100%;
     height: 500px;
     border-radius: 16px;
 }
@@ -239,13 +238,12 @@ div>ul>li {
     width: 324px;
     height: 120px;
     color: #FFF;
-    padding-right: 20px;
     transform: rotate(-20deg);
     background-color: #FF5400;
     border-radius: 16px;
     position: absolute;
     bottom: 14%;
-    left: 62%;
+    left: 63%;
 }
 
 div > ol > li{

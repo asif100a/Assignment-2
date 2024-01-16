@@ -1,0 +1,78 @@
+@media screen and (max-width: 600px) {
+    body{
+        min-width: 100%;
+        align-items: center;
+        margin: auto;
+    }
+    .popular-all-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        /* height: 100%; */
+    
+    }
+    .popular-tours-container {
+        width: 100%;
+        margin-top: -25px;
+        text-align: center;
+        align-items: center;
+    }
+    .btn-style {
+        margin-bottom: 50px;
+    }
+    #destination {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin-top: 700px;
+    }
+    .destination-descrip {
+        width: 100%;
+        text-align: center;
+    }
+    #two-equal-image {
+        display: grid;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 50px;
+    }
+    #three-img {
+        display: grid;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 25px;
+    }
+    #two-unequal-img {
+        display: grid;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 25px;
+    }
+    .choose-us {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .choose-descrip {
+        width: 100%;
+        text-align: center;
+    }
+    .two-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    }
+    .box-img-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #footer-descrip{
+        width: 100%;
+        text-align: center;
+       
+    }
+}
