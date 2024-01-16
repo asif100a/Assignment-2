@@ -14,10 +14,20 @@
     background: #FF5400;
     font-size: 16px;
     font-weight: 600;
+    border: none;
 }
-.white-common{
+.white-common {
     color: white;
 }
+.common-font-normal{
+    font-size: 16px;
+    font-weight: 400;
+}
+.common-font-weight{
+    font-size: 40px;
+    font-weight: 800;
+}
+
 
 body {
     /* max-width: 2100px;
@@ -33,11 +43,13 @@ body {
 }
 
 .banner-entire {
-    background-image: url('/B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-image: url('../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     width: 1197px;
     height: 500px;
+    border-radius: 16px;
 }
 
 .banner-text {
@@ -86,6 +98,41 @@ body {
     border-radius: 8px;
     border: none;
 }
-.btn-style{
+
+
+
+/* =============================== Main Section style===================== */
+/* -----------first section----------- */
+.popular-all-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+
+}
+
+.popular-tours-container {
+    width: 40%;
+    margin-top: -25px;
+}
+
+.btn-style {
+    margin-top: 30px;
+}
+
+div > ul > li{
     margin-top: 20px;
+}
+
+/* --------------second section---------- */
+#destination{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.destination-descrip{
+    width: 35%;
+    text-align: center;
 }
