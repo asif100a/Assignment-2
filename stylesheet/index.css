@@ -47,11 +47,9 @@ body {
 }
 
 .banner-entire {
-
     background-image: url('../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 500px; */
     border-radius: 16px;
 }
 
@@ -115,7 +113,7 @@ body {
 }
 
 .popular-tours-container {
-    width: 40%;
+    width: 35%;
     margin-top: -25px;
 }
 
@@ -162,6 +160,31 @@ div>ul>li {
     margin-top: 25px;
 }
 
+#rectangle-6{
+    width: 390px; 
+    height: 286px;
+}
+#rectangle-7{
+    width: 480px; 
+    height: 286px;
+}
+#rectangle-9{
+    width: 290px; 
+    height: 286px;
+}
+#rectangle-11 {
+    width: 492px;
+    height: 300px;
+}
+
+#rectangle-10 {
+    width: 692px;
+    height: 300px;
+}
+#rectangle-8{
+    width: 100%;
+    height: auto;
+}
 /* ------------ third section ----------- */
 .choose-us {
     width: 100%;
@@ -246,53 +269,66 @@ div>ul>li {
     bottom: 14%;
     left: 63%;
 }
-
-div > ol > li{
+#li-travel{
+    font-size: 24px; 
+    font-weight: 400;
+}
+#li-save{
+    font-size: 32px; 
+    font-weight: 800;
+}
+div>ol>li {
     list-style: none;
     text-align: center;
 }
 
 /* ======================== Footer section style ====================== */
-footer{
+footer {
     max-width: 100%;
     background: rgba(19, 19, 24, 0.05);
 }
 
-.footer-title{
+.footer-title {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 100px;
     padding-top: 100px;
 }
-.mission{
+
+.mission {
     font-size: 32px;
     font-weight: 800;
 }
-#traveling{
+
+#traveling {
     color: #FF5400;
 }
 
-#footer-descrip{
+#footer-descrip {
     width: 37%;
     text-align: center;
-   
+
 }
-.align-center-footer{
+
+.align-center-footer {
     display: flex;
     justify-content: center;
     margin-top: 16px;
 }
-.logo-gap{
+
+.logo-gap {
     margin: 20px;
     padding-bottom: 40px;
 }
 
-.margin-bottom{
+.margin-bottom {
     padding-bottom: 150px;
     padding-top: 40px;
 }
 
-hr{
-    width: 872px; height: 1px; background: rgba(19, 19, 24, 0.10);
+hr {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
 }
