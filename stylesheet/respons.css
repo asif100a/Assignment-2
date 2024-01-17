@@ -153,6 +153,30 @@
 
     }
 
+    #simple-video-container{
+        display: grid;
+        margin: 50px auto;
+        gap: 25px;
+        align-items: center;
+    }
+    .simple-text-container {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .simple-perfect {
+       text-align: center;
+    }
+    #video {
+        width: 90%;
+        height: auto;
+        border-radius: 16px;
+        margin: 50px auto;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }    
+
     #newslater-box {
         width: 90%;
         height: auto;
@@ -188,6 +212,7 @@
         font-weight: 800;
     }
 
+    /* ============ Footer ============= */
     footer {
         width: 100%;
     }
