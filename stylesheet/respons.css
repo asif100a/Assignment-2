@@ -6,9 +6,11 @@
 
 
     .banner-entire {
-        width: 100%;
         height: 483px;
         background-size: 485px 483px;
+        background-position: center;
+        text-align: center;
+        border-radius: 16px;
     }
 
     .banner-title {
@@ -25,7 +27,6 @@
     .input-text {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
         width: 100%;
         margin: auto;
     }
@@ -34,6 +35,10 @@
         width: 70%;
         height: 32px;
         margin-top: 0px;
+    }
+
+    .common-align{
+        margin: 12px auto;
     }
 
     .popular-all-container {
@@ -59,7 +64,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        align-items: center;
+        text-align: center;
         margin-top: 700px;
     }
 
@@ -118,7 +123,7 @@
     .choose-us {
         width: 100%;
         display: grid;
-        align-items: center;
+        text-align: center;
         margin-top: 100px;
     }
 
@@ -128,17 +133,18 @@
     }
 
     .card-style {
-        width: 100%;
+        width: 85%;
         height: auto;
         border-radius: 16px;
         padding: 32px;
+        margin: 12px auto;
     }
 
     .two-card-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 25px;
+        gap: 12px;
     }
 
     .box-img-container {
@@ -148,11 +154,12 @@
     }
 
     #newslater-box {
-        width: 100%;
+        width: 90%;
         height: auto;
         border: 4px solid orange;
         border-radius: 16px;
         padding-left: 40px;
+        margin: 0px auto;
     }
 
     .input-spread,
@@ -160,6 +167,9 @@
         width: 90%;
         height: auto;
         border-radius: 8px;
+    }
+    .subscribe{
+        width: 85%;
     }
 
     .save-persantage {
